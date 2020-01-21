@@ -1,0 +1,22 @@
+config:
+  aws:region: sa-east-1
+  friday-code-challenge:vpc-name: private-vpc
+  friday-code-challenge:cluster-name: name
+  friday-code-challenge:initial-nodes: 5
+  friday-code-challenge:max-nodes: 10
+  friday-code-challenge:min-nodes: 3
+  friday-code-challenge:instance-type: m4.xlarge
+  friday-code-challenge:create-public-ips: false
+  friday-code-challenge:security-group-tags: pulumi
+  friday-code-challenge:log-types: api,audit,authenticator
+  friday-code-challenge:private-endpoint: true
+  friday-code-challenge:public-endpoint: true
+  friday-code-challenge:fargate: false
+  friday-code-challenge:instance-profile-name: instance-profile
+  friday-code-challenge:role-name: managed-role
+  friday-code-challenge:skip-default-node-group: true
+  friday-code-challenge:autoscaling-group-name: autoscaling-group
+  friday-code-challenge:node-group-name: managed-group
+  friday-code-challenge:kubernetes-version: 1.14
+  friday-code-challenge:use-dashboard: false
+  friday-code-challenge:ami-id: ami-0c53683bb5f25f113
