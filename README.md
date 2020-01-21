@@ -38,6 +38,8 @@ An explanation on how to use and why these technologies used will be given below
 1. If you're satisfied with the result, respond yes to the prompt
 1. If you're not satisfied with the result, respond no and fix the appropriate configuration values
 1. To get the cluster's kubeconfig run `pulumi stack output kubeconfig > kubeconfig.yaml`, this saves the cluster's kubeconfig file to the local directory
+1. If you want to destroy the cluster, run `pulumi destroy` to destroy all created resources
+1. If you want to delete the project once all resources have been destroyed, run `pulumi stack rm`, this will delete the project from your Pulumi account & dashboard
 
 ## Technology Choices
 ---
